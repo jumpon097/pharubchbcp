@@ -214,6 +214,7 @@
                             <div class="form-group span-2"><label>7. เวลา ⏰</label><input type="text" id="drugTime" list="timeList" onchange="checkAndTranslate('drugTime', 'times')" onkeydown="handleEnter(event, 'drugQty')" onkeyup="updateLabelPreview('drugSearch')"></div>
                             <div class="form-group span-1"><label>8. จำนวน 🔢</label><input type="number" id="drugQty" value="1" min="1" onkeydown="handleEnter(event, 'drugPrice')" onchange="calculateTotal()" onkeyup="updateLabelPreview('drugSearch')"></div>
                             <div class="form-group span-1"><label>9. ราคา/หน่วย ฿</label><input type="number" id="drugPrice" onkeydown="handleEnter(event, 'drugIndication')" onchange="calculateTotal()"></div>
+                            <input type="hidden" id="drugTotal" value="0">
                             <div class="form-group span-5"><label>10. 💡 เพิ่มเติมสรรพคุณ / หมายเหตุ <span style="color:red; font-weight:normal;">(สามารถพิมพ์ข้อความต่อท้ายลงในช่องนี้ได้เลย)</span></label><input type="text" id="drugIndication" style="background-color:#fff0f3; border-color:var(--cute-pink);" onkeydown="handleEnter(event, 'ADD')" onkeyup="updateLabelPreview('drugSearch')"></div>
                         </div>
                     </div>
