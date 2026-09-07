@@ -1,0 +1,15 @@
+{
+  "version": "20260907122832",
+  "updatedAt": "2026-09-07T12:28:32.560316+07:00",
+  "allergyRows": 3529,
+  "list2Rows": 1295,
+  "allergyFile": "data/qr16015-allergy150666.xlsx",
+  "list2File": "data/list2.xlsx",
+  "mapping": {
+    "allergyHN": "A",
+    "allergyDrug": "C",
+    "list2Code": "B",
+    "list2Name": "C",
+    "list2Generic": "O"
+  }
+}
